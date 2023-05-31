@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#canvas1 {
+    /* background-color: blue; */
+    position: absolute;
+}
+
+.controls {
+    position: absolute;
+    z-index: 100;
+}
+
+img {
+    display: none;
+}
+
+button {
+    padding: 20px 30px; 
+    font: 22px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    transition: all .3s ease-in-out;
+}
+button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
